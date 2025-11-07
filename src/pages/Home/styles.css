@@ -1,0 +1,90 @@
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    position: absolute;
+    height: 24vh;
+    left: 0;
+    top: 0;
+    width: auto;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.conteudo .background {
+  opacity: 0.2; /* valor entre 0 (invisível) e 1 (sem transparência) */
+}
+
+.info {
+    margin-right: 90px;
+    margin-top: 40px;
+    width: 60%;
+    color: #FFFFFF;
+}
+
+.conteudo .info .input {
+    border: 1px solid #999999;
+    color: #FFFFFF;
+    border-radius: 22px;
+    min-width: 250px;
+    margin-right: 12px;
+    width: 85%;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+.button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    min-width: 250px;
+    margin-right: 12px;
+    width: 80%;
+    background: #2D333B;
+    color:#FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #FFFFFF;
+    margin-top: 10px;
+    margin-right: 32px;
+}
+
+.user-info h3 {
+    color: #999999;
+    margin: 0;
+    font-size: 24px;
+}
+
+.user-info span {
+    display: block;
+    color: #666666;
+    margin: 0;
+    font-size: 24px;
+}
+
+.user-info p {
+    color: #999999;
+    margin: 20px 0 0 0;
+    font-size: 12px;
+}
+.repositories {
+    font-size: 32px;
+    color:#FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}
