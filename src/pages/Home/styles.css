@@ -6,13 +6,17 @@
 }
 
 .background {
-    position: absolute;
-    height: 24vh;
-    left: 0;
-    top: 0;
-    width: auto;
-    pointer-events: none;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 16%;     /* ✅ Agora se ajusta à largura da tela */
+  height: auto;     /* ✅ Mantém proporção */
+  max-height: 24vh; /* Opcional: controla limite vertical */
+
+  pointer-events: none;
+  z-index: -1;
+  object-fit: cover; /* ✅ Garante ajuste proporcional */
 }
 
 .conteudo .background {
